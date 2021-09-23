@@ -1,0 +1,86 @@
+/* * {
+    border: solid red;
+} */
+
+#container {
+    width: 90%;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+#navBar {
+    width: 800px;
+    height: 50px;
+    background-color: darkgray;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#searchBar {
+    border: solid black;
+}
+
+#login {
+    background-color: royalblue;
+    color: white;
+    border: darkgray;
+    box-shadow: 2px 02px 2px 2px black;
+}
+
+.topLeftBox, .bottomLeftBox {
+    width: 450px;
+    height: 200px;
+    border: solid black;
+    margin: 20px 0px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: wrap;
+    align-items:center;
+}
+
+.ninjaBox1 {
+    width: 300px;
+    height: 125px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.ninjaBox2 {
+    width: 300px;
+    height: 125px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.likeButton {
+    background-color:yellow;
+    color: black;
+    font-size: 14px;
+}
+
+.addDefinitionButton {
+    background-color: green;
+    border: black;
+    font-size: 14px;
+    box-shadow: 2px 2px 4px 2px black;
+    margin: 0px 0px 00px 60px;
+}
+
+#topRightBox {
+    width: 260px;
+    height: 150px;
+    margin-left: 525px;
+    margin-top: -450px;
+    border: solid black;
+    font-size: large;
+    padding-top: 30px;
+    padding-left: 5px;
+}

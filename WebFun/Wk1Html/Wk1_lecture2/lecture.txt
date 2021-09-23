@@ -1,0 +1,36 @@
+House Keeping
+- Reading
+- Assignments and their purposes
+- Discussion questions
+
+Review
+- material found on learn platform
+
+Cover
+- Box Model
+- Selects 
+    - Class
+    - Id
+    - Parent Child
+- Divs
+    - What they do and when to use them
+
+
+
+Start Coding
+- Build webpage
+    - selectors
+    - Basic tags
+    - Indentation
+    - Forms
+    - Tables
+    - Media
+    - Layout with Divs
+    - Style (target ids and classes)
+
+
+Bonus
+- LinkedIn
+- Work on trivia game
+
+Questions and Answers

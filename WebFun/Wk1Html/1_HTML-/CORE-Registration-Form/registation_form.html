@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="/process" method="POST">
+        <div>
+            <label>First Name: * </label>
+            <input type="text" name="first_name" placeholder="Your first name...">
+        </div>
+        <div>
+            <label>Last Name: * </label>
+            <input type="text" name="last_name" placeholder="Your last name...">
+        </div>
+        <div>
+            <label>Email Address: * </label>
+            <input type="text" name="email" placeholder="Your email...">
+        </div>
+        <div>
+            <label>Password: * </label>
+            <input type="password" name="password" placeholder="abc123#">
+        </div>
+        <div>
+            <label>Confirm Password: * </label>
+            <input type="password" name="confirm password" placeholder="abc123#">
+        </div>
+        <div>
+            <label>Birthday: </label>
+            <input type="date" id="Birthday">
+        </div>
+        <div>
+            <p><label>Gender Identity: </label></p>
+            <input type="radio" name="gender" value="Male" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Female" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" value="Non-binary" id="Non-binary">
+            <label for="Non-binary">Non-binary</label>
+            <input type="radio" name="gender" value="I prefer not to answer" id="None">
+            <label for="None">I prefer not to answer</label>
+        </div>
+        <div>
+            <p>A short description about myslef:</p>
+            <textarea name="description" id="description" cols="40" rows="5"></textarea>
+        </div>
+        <div>
+            <Label>Favorite Lanugage: </Label>
+            <select name="language" id="languge">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="Ruby">Ruby</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="email-updates" id="email-updates" checked>
+            <label for="email-updates">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <input type="submit" value="Create Account">
+        <p>*Indicates a required feild </p>
+    </form>
+</body>
+
+</html>

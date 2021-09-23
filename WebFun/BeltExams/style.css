@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+    border: solid red;
+}
+#mainContainer {
+    width: 1090px;
+    font-family: sans-serif;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+span {
+    color: orange;
+}
+
+#titleBar {
+    width: 1250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#loginButton, #joinButton {
+    width: 100px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    border: solid black;
+    box-shadow: 2px 2px 0px 0px black;
+
+}
+#joinButton {
+    background-color: navy;
+    color: white;
+    margin-left: 700px;
+}
+#searchBar {
+    width: 1250px;
+    background-color: peachpuff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchBox {
+    font-size: 16px;
+    height: 30px;
+    margin: -4px;
+}
+.submitButton {
+    width: 45px;
+    height: 30px;
+    font-size: 16px;
+    bottom: 5px;
+    background-color: navy;
+    color: white;
+    box-shadow: 2px 2px 2px 2px #0000;
+    margin-right: 5px;
+}
+
+.dessertIcons {
+    height: 100px;
+    border-radius: 50%;
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0px 50px;
+}
+
+.align {
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    color: navy;
+}
+
+#recipeBox {
+    width: 750px;
+    height: 700px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+.likeIcons {
+    width: 25px;
+}
+
+#right-container{
+    width: 400px;
+    height: 500px;
+    margin: 20px 20px 20px 20px;
+}
+
+hr {
+    height: 2px;
+    background-color: darkgray;
+    width: 130%;
+    border-radius: 40%;
+}
+
+.receipeImageSize {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px;
+    padding-top: 20px;
+}
+
+.receipeLink {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.dessertImgs2 {
+    padding: 10px 5px 5px 10px;
+    margin: 0px -5px 5px -5px;
+}
+

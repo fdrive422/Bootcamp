@@ -1,0 +1,56 @@
+.container {
+    width: 800px;
+    background-color: #e1e1e1;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.header {
+    margin: 10pt;
+    text-align: center;
+    color: #4a494a;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+#octodex1, #octodex2, #octodex3, #octodex4,#octodex5, 
+#octodex6, #octodex7, #octodex8 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#top-row {
+    margin: 20px;
+    padding: 15px;
+    background-color: #4aa6dc;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mid-row {
+    margin: 20px;
+    padding: 15px;
+    background-color: #950016;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bottom-row {
+    margin: 20px;
+    padding: 15px;
+    background-color: #4b3831;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    text-align: center;
+    color: darkgrey;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 10pt;
+}

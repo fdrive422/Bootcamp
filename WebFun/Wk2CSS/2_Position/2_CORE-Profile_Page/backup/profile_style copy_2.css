@@ -1,0 +1,231 @@
+/* this is top navbar container for entire page */
+
+.navbar {
+    width: 600px;
+    height: 35px;
+    background-color:black;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+.profile {
+    font-size: 20px;
+    margin: -3px;
+}
+
+#navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn {
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    background-color:teal;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: 90px;
+}  
+
+/* this is left side container - top left */
+
+.left-container {
+    width: 320px;
+    height: 600px;
+    display: inline-block
+}
+
+.side-container {
+    width:300px;
+    height: 275px;
+    border: solid darkgray;
+    margin: 30px 0px 0px 10px;
+}
+
+.card-header {
+    width: 300px;
+    height: 60px;
+    background-color: teal;
+}
+
+.card-body {
+    width:300px;
+    height: 300px;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 5px;
+    padding: 30px 0px 30px 10px;
+}
+
+.img {
+    height: 65px;
+    margin: 20px 10px -8px 10px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* this is education container, bottom left */
+
+.educate {
+    width: 300px;
+    height: 150px;
+    border: solid darkgray;
+    margin: 10px 0px 15px 10px;
+    justify-content: center;
+}
+
+.educate-header {
+    height: 30px;
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 10px 0px 15px 10px;
+}
+
+.bootcamp {
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 0px 0px 15px;
+    display: inline-block;
+}
+
+#dates {
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.icon-s { 
+    height: 12px;
+}
+
+/* this is request box, top right  */
+
+.right-container {
+    width: 270px;
+    height: 500px;
+    padding: 0px;
+    display: inline-block;
+    justify-content:space-around;
+    vertical-align: top;
+    margin-top: 60px;
+}
+
+.request-connect {
+    width: 250px;
+    height: 150px;
+    border: solid darkgray;
+    margin: 10px 0px 15px 10px;
+    padding: 0px;
+}
+
+.request-header {
+    width: 250px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 5px 0px 2px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#reqbtn {
+    border-radius: 50%;
+    height: 25px;
+}
+
+.request-list, .response {
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding-left: 0px;
+}
+
+#sm-img {
+    height: 35px;
+    border-radius: 50%;
+}
+
+#icon-f {
+    height: 25px;
+    display: inline;
+    justify-content: flex-end;
+}
+
+/*this is my connections box, bottom right  */
+
+#connection-btn {
+    border-radius: 75%;
+    height: 25px;
+}
+
+.your-connect {
+    width: 250px;
+    height: 30px;
+    font-family: sans-serif;
+    border: solid darkgray;
+    margin: 10px 0px 15px 10px;
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
+
+.your-header {
+    width: 250px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 5px 0px 0px -3px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.your-list {
+    width: 235px;
+    height: 190px;
+    border: solid darkgray;
+    color:black;
+    margin: 5px -5px 0px -3px;
+    padding-top: 15px;
+    padding-left: 15px;
+    /* display: inline-block; */
+    /* justify-content: space-between; */
+}
+
+#view-more {
+    /* width: 250px; */
+    height: 25px;
+    border: solid darkgray;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: -3px -3px -5px -3px;
+    padding-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    /* justify-content: left; */
+}
+
+#column-img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}

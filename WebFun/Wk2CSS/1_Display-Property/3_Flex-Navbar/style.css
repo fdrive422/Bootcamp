@@ -1,0 +1,40 @@
+.nav {
+    width: 700px;
+    font-family: arial;
+    background-color: rgba(16, 11, 11, 0.623);
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.nav-title {
+    color: white;
+    font-size: 16pt;
+    font-weight: lighter;
+    align-items: flex-start;
+}
+
+ul li {
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 8pt;
+    margin-right: 5px;
+}
+
+.active {
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 10px;
+    background-color:#17a2b8;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+}

@@ -1,0 +1,272 @@
+/* this is main container for entire page */
+
+.navbar {
+    width: 600px;
+    height: 35px;
+    background-color:black;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    text-decoration:none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+.profile {
+    font-size: 20px;
+    margin: -3px;
+}
+
+.btn {
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    background-color:teal;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: 90px;
+}  
+
+/* a {
+    color: white;
+    text-decoration: none;
+} */
+/* 
+.flex-container {
+    width: 650px;
+    height: 500px;
+    background-color:white;
+    font-family: 'Roboto';
+    display: flex;
+} */
+
+.left-container {
+    width: 320px;
+    height: 600px;
+    display: inline-block
+}
+
+.side-container {
+    width:300px;
+    height: 275px;
+    border: solid darkgray;
+    /* margin-top: 80px; */
+    margin: 30px 0px 0px 10px;
+    /* background-color: teal; */
+    /* height: 75px; */
+}
+
+.card-body {
+    width:300px;
+    height: 300px;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 5px;
+    padding: 2px 0px 0px 10px;
+}
+
+.img {
+    height: 65px;
+    margin: 20px 10px -8px 10px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* this is education box, bottom left */
+.educate {
+    width: 300px;
+    height: 150px;
+    border: solid darkgray;
+    margin: 10px 0px 15px 10px;
+    justify-content: center;
+}
+
+.educate-header {
+    height: 30px;
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 10px 0px 15px 10px;
+}
+
+.bootcamp {
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 0px 0px 15px;
+    display: inline-block;
+}
+
+#dates {
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.icon-s { 
+    height: 12px;
+}
+
+/* this is request box, top right  */
+
+.right-container {
+    width: 300px;
+    height: 500px;
+    padding: 0px;
+    display: inline-block;
+    justify-content:space-around;
+    vertical-align: top;
+    margin-top: 60px;
+}
+
+.request-connect {
+    width: 250px;
+    height: 150px;
+    border: solid darkgray;
+    margin: 10px 0px 15px 10px;
+    padding: 0px;
+}
+
+.request-header {
+    width: 250px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 5px 0px 2px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#reqbtn {
+    border-radius: 50%;
+    height: 25px;
+}
+
+.request-list, .response {
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+#sm-img {
+    height: 35px;
+    border-radius: 50%;
+}
+
+#icon-f {
+    height: 25px;
+    display: inline;
+    justify-content: flex-end;
+}
+
+/*this is my connections box, bottom right  */
+
+/* .your-header, .response {
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding-left: 20px;
+} */
+
+#connection-btn {
+    border-radius: 75%;
+    height: 25px;
+}
+
+.your-connect {
+    width: 250px;
+    height: 30px;
+    font-family: sans-serif;
+    border: solid darkgray;
+    margin: 15px 0px 15px 10px;
+    padding: 0px;
+}
+
+.your-header {
+    width: 250px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 5px 0px 2px 0px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.your-list {
+    width: 250px;
+    height: 225px;
+    border: solid darkgray;
+    margin: 5px 0px 10px -3px;
+    padding: 0px;
+    display: flex; 
+    flex-direction: column;
+}
+
+#column-img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+/*     
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding-left: 20px; */
+
+/* removed eveything below for now.... 
+/* this is top navigation bar */
+/* .navbar {
+    width: 650px;
+    height: 50px;
+    font-family: arial;
+    background-color: black;
+    display: inline-block;
+    justify-content: space-between;
+} */
+
+/* .nav-title {
+    color: white;
+    font-size: 16pt;
+    font-weight: lighter;
+    display: inline-block;
+    justify-content: space-between;
+    /* align-items: flex-start; 
+} */
+
+/* ul li {
+    width:700px;
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 8pt;
+    margin-right: 5px;
+} */
+
+/* .active {
+    font-weight: bold;
+    font-size: 9pt;
+} */
+
+
+/* this is user-card, top left */
+/* .side-container {
+    width: 300px;
+    height: 300px;
+} */

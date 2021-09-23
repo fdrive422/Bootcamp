@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: #AA3939;
+    color: #FFAAAA;
+}
+
+button {
+    background-color: #550000;
+    color: #FFAAAA;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-evenly;
+}

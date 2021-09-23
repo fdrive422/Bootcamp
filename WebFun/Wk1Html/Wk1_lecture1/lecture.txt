@@ -1,0 +1,37 @@
+House Keeping
+- Reading
+- Assignments and their purposes
+- Discussion questions
+
+Review
+- Learn platform
+- Discord
+- Schedule
+
+VSCode
+- Opening folders
+- Creating folders and files
+- Helpful extentions
+
+Start Coding
+- Build webpage
+    - Boiler plate code
+    - Basic tags
+    - Forms
+    - Tables
+    - Lists
+    - Media
+    - Comments
+    - Indentation
+
+Inspect tool
+- Check code
+- Change code
+- Find passwords
+- Change form requirements
+
+
+Bonus
+- LinkedIn
+
+Questions and Answers

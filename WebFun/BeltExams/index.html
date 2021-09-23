@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>JustDessert</title>
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="titleBar">
+            <h1>Just<span>Dessert</span></h1>
+            <button onclick="hide(this)" id="joinButton">Join</button>
+            <button id="loginButton">Login</button>
+        </div>
+
+        <div id="searchBar">
+            <div class="flex">
+                <form>
+                    <input id="searchText" class="searchBox" type="text" name="text" placeholder="SEARCH">
+                    <input class="submitButton" onclick="search(event)" type="submit" value="GO">
+                </form>
+            </div>
+            <div class="flex align">
+                <div>
+                    <img src="imgs/cake.png" alt="cakes" class="dessertIcons">
+                    <p>Cakes</p>
+                </div>
+                <div>
+                    <img src="imgs/cookie.png" alt="cookies" class="dessertIcons">
+                    <p>Cookie</p>
+                </div>
+                <div>
+                    <img src="imgs/ice-cream.png" alt="ice-cream" class="dessertIcons">
+                    <p>Ice Cream</p>
+                </div>
+                <div>
+                    <img src="imgs/pie.png" alt="pies" class="dessertIcons">
+                    <p>Pie</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="flex"> -->
+        <div id="recipeBox">
+            <div id="topRightBox"></div>
+            <h2>Recipe of the Day</h2>
+            <div>
+                <img src="imgs/orange-tart.jpg" alt="tart slice" class="receipeImageSize">
+                <p>Orange Tea Jelly Tart</p>
+                <p>by: <a href="#">yuripiano</a></p>
+            </div>
+            <div>
+                <div><img class="likeIcons" src="imgs/heart.png" alt="like icon count" id="orangeTartCount"> 68
+                </div>
+                <a class="receipeLink" href="#">See Full Receipes</a>
+            </div>
+            <div id="right-container">
+                <h3>Recommended for you:</h3>
+                <hr>
+                <div>
+                    <img class="dessertImgs2" src="imgs/macarons.jpg" alt="macarons">
+                    <p>Macarons</p>
+                    <p>by: <a href="#">EmileW</a></p>
+                    <img src="imgs/heart.png" alt="like icon count" id="macaronCount" class="likeIcons">
+                </div>
+                <div>
+                    <img class="dessertImgs2" src="imgs/creme-brulee.jpg" alt="cremeBrulee">
+                    <p>Creme Brulee</p>
+                    <p>by: <a href="#">MarisaG</a></p>
+                    <img class="likeIcons" src="imgs/heart.png" alt="like icon count" id="cremeBruleeCount">
+                    33
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

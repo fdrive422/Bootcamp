@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>JustDessert</title>
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="navBar">
+            <!-- <div class="flex"> -->
+            <div class="signOnBar">
+                <h1>Just<span>Dessert</span></h1>
+                <button onclick="hide(this)" id="join">Join</button>
+                <button id="login">Login</button>
+            </div>
+        </div>
+
+        <!-- <div id="left-container"> -->
+        <div class="flex">
+            <div id="searchBar">
+                <div class="flex">
+                    <form>
+                        <input class="searchBox" type="text" name="text" class="search" placeholder="SEARCH">
+                        <input class="submitButton" onclick="seach(event)" type="submit" value="GO">
+                    </form>
+                </div>
+                <div id="dessertBar">
+                    <div class="flex">
+                        <img class="dessertIcons" src="imgs/cake.png" alt="cakes"> Cake
+                        <img class="dessertIcons" src="imgs/cookie.png" alt="cookies"> Cookies
+                        <img class="dessertIcons" src="imgs/ice-cream.png" alt="ice-cream"> Ice Cream
+                        <img class="dessertIcons" src="imgs/pie.png" alt="pies"> Pie
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="right-container">
+            <div id="recipeBox">
+                <h2>Recipe of the Day</h2>
+                <img src="imgs/orange-tart.jpg" alt="tart slice" class=receipeImageSize>
+                <p>Orange Tea Jelly Tart</p>
+                <p>by: <a href="#">yuripiano</a></p>
+                <img class="likeIcons" src="imgs/heart.png" alt="like icon count" id="orangeTartCount"> 68
+            </div>
+            <div class="recommendedBox">
+                <!-- <div class="flex"> -->
+                <h3>Recommended for you:</h3>
+                <hr>
+                <div>
+                    <img class="dessertImgs2" src="imgs/macarons.jpg" alt="macarons">
+                    <p>Macarons</p>
+                    <p>by: <a href="#">EmileW</a></p>
+                    <!-- <img src="class " alt=""> -->
+                    <img class="likeIcons" src="imgs/heart.png" alt="like icon count" id="macaronCount"> 212
+                </div>
+                <div>
+                    <img class="dessertImgs2" src="imgs/creme-brulee.jpg" alt="cremeBrulee">
+                    <p>Creme Brulee</p>
+                    <p>by: <a href="#">MarisaG</a></p>
+                    <!-- <img src="class " alt=""> -->
+                    <img class="likeIcons" src="imgs/heart.png" alt="like icon count" id="macaronCount"> 33
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

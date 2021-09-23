@@ -1,0 +1,16 @@
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    font-family: 'Verdana';
+    color: brown;
+    display: flex;
+    align-items: center;
+}
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+
