@@ -8,16 +8,17 @@ for i in range(5, 1001, 5):
 
 # 3. Counting, the Dojo Way - Print integers 1 to 100. If divisible by 5, print "Coding" instead. If divisible by 10, print "Coding Dojo".
 for i in range(1, 101):
-    if i % 2 == 0:
-        print('Coding')
     if i % 10 == 0:
+        print('Coding')
+    elif i % 5 == 0:
         print('Coding Dojo')
+    else:
+        print(1)
 
 # 4. Whoa. That Sucker's Huge - Add odd integers from 0 to 500,000, and print the final sum.
 sum = 0
-for i in range(0, 10):
-    if i % 2 != 0:
-        sum += i
+for i in range(0, 500001, 2):
+    sum += i
 print(sum)
 
 # 5. Countdown by Fours - Print positive numbers starting at 2018, counting down by fours.
