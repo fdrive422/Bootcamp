@@ -1,7 +1,7 @@
 class User:
 
     bank_name = "First National Dojo"
-    def __init__(self, name, emailAddress):
+    def __init__(self, name):
         self.name = name
         # self.email = emailAddress
         self.accountBalance = 0
@@ -18,18 +18,16 @@ class User:
         print(f"{self.name}, Balance: ${self.accountBalance}")
         return self
 
-    def updateEmailAddress(self, newEmailAddress):
-        self.email = newEmailAddress
-
     def transferMoney(self,amount,user):
         self.accountBalance -= amount
         user.accountBalance += amount
         self.displayUserBalance()
         user.displayUserBalance()
+        return self
 
-tom = User("Tom Cruise", "tom@cruise.com")
-pete = User("Pete Mitchell", "pete@maverick.com")
-ethan = User("Eathan Hunt", "ethan@imf.com")
+tom = User("Tom Cruise")
+pete = User("Pete Mitchell")
+ethan = User("Eathan Hunt")
 
 tom.makeDepoit(50000).makeDepoit(100000).makeDepoit(150000).makeWithdrawal(25000).displayUserBalance()
 pete.makeDepoit(150000).makeDepoit(200000).makeWithdrawal(50000).makeWithdrawal(150000).displayUserBalance()
